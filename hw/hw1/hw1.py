@@ -54,7 +54,7 @@ for i in range(len(spawns)):
 #the variable spawns.
 # FILL ME
 
-# PROBLEMS 4-6 - Image Convolution
+# PROBLEMS 4-5 - Image Convolution
 #Images are often stored as an n x n matrix. This problem will have you read in sample
 #image data on handwritten numbers 0,1,2,3,4,5,6,7,8,9, as well as perform an operation
 #called a "convolution". To read more about how convolution works, visit:
@@ -92,8 +92,8 @@ img_reshaped = np.reshape(img, ) #FILL ME
 plt.imshow() #FILL ME
 plt.show()
 
-# PROBLEM 6 - Convolving
-#This problem is open-eneded since there are a couple of ways of doing this. Unlike
+# EXTRA CREDIT - Convolving
+#This problem is open-ended since there are a couple of ways of doing this. Unlike
 #the demo from the link I gave you above, you are required to convolve with a stride of
 #1 and NO ZERO PADDING is necessary. Your task is to convolve on only the first image
 #(the one your visualized in the last problem). The output should be a 26x26 array.
