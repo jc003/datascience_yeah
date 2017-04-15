@@ -1,4 +1,4 @@
-# JUGGLING PANDAS - HOMEWORK 2
+# JUGGLING PANDAS - HOMEWORK 2 AND QUIZ 2 (Below Homework 2)
 
 
 #The point of this homework is to get you more practice with pandas syntax.
@@ -67,11 +67,46 @@ mm_di
 
 ### PROBLEM 5 ###
 #Make a barplot of percentages of each race for both counties you identified above (this should be a single line!)
-#Also, you might want to set the legend to not appear. Look up "dataframe plot kind" in Google  if you're not sure.
+#Also, you might want to set the legend to not appear. Look up "dataframe plot kind" in Google if you're not sure.
 
 
 mm_di.iloc[,].plot() #FILL ME
 plt.show()
+
+
+
+
+
+
+### QUIZ PROBLEM 1 ###
+#Replace all of the negative values of the following array with 0. This procedure acutally has a name!
+#Look up "Rectifier (neural networks)" on wikipedia. Hint: you can do this in one line of code: consider using np.where.
+
+import numpy as np
+
+x = np.array([[-1, 0, 5], [23, -2, 4], [4, 2, -0.1]])
+
+#YOUR CODE HERE
+
+
+
+
+### QUIZ PROBLEM 2 ###
+#Create a function that takes in a 2x2 array and calculates its determinant. This should be familiar from last week's 
+#quiz. If you forgot how to calculate the determinant, look up last week's quiz!
+
+example_array = np.array([[-2, 1], [5, 8]])
+
+def determinant(myarray):
+	determinant_value = #YOUR CODE HERE
+	return determinant_value
+
+
+determinant(example_array) #This should return the value -21.
+
+
+
+
 
 
 
